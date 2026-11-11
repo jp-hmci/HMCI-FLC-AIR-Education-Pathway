@@ -11,7 +11,7 @@ const faqs = [
   ["Will I get educator credit?", "Professional learning credit is planned through Los Rios for eligible educator pathways. It is not open as a self-serve claim yet, and your district still has to accept it."],
   ["Do you build AI systems?", "No. AIR trains people and helps them plan. Operating a production system stays with the organization that owns the data."],
   ["Does this include NVIDIA hardware?", "No. The NVIDIA track is education: Deep Learning Institute courses and faculty briefings."],
-  ["Where do I register?", "Through Folsom Lake College when the enrollment window is linked. Until then, send a request from the contact page and name the pathway."],
+  ["Where do I register?", "At Folsom Lake College. Every pathway links to the college enroll page, the OpenCCC application for new students, and eServices for people who already have a Los Rios ID. Spring 2027 enrollment begins November 23, 2026."],
 ];
 
 function Page() {

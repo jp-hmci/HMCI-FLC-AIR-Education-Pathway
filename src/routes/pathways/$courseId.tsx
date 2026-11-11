@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { EnrollPanel } from "@/components/site/bits";
 import { courseById } from "@/lib/content";
 
 export const Route = createFileRoute("/pathways/$courseId")({ component: CoursePage });
@@ -48,19 +49,7 @@ function CoursePage() {
             ))}
           </ul>
         </section>
-        <section className="rounded-xl bg-navy p-6 text-white">
-          <h2 className="text-2xl">Enroll</h2>
-          <p className="mt-2 text-sm text-white/75">
-            Registration opens through Folsom Lake College. Until that window is linked, use Contact and name this
-            pathway so a coordinator can place you.
-          </p>
-          <Link
-            to="/contact"
-            className="mt-4 inline-flex min-h-11 items-center rounded-md bg-gold px-4 py-2 text-sm font-semibold text-navy-deep no-underline"
-          >
-            Request this pathway
-          </Link>
-        </section>
+        <EnrollPanel pathway={course.title} />
       </div>
     </article>
   );

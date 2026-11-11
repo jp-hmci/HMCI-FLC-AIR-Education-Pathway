@@ -603,7 +603,7 @@ export const news: NewsItem[] = [
     body: [
       "AIR Pathways is the learning front door for the AI and robotics effort in Rancho Cordova. Folsom Lake College and the Los Rios Community College District are the education home. HMCI designs the network. The City of Rancho Cordova is the civic partner.",
       "The first catalog copies the shape of a statewide model that already works elsewhere: short practical foundations, industry certificates people recognize, and a separate NVIDIA Deep Learning Institute track.",
-      "Seats and licenses will be limited once registration is live. This site shows the offering. Enrollment steps will point to Folsom Lake College when the term opens.",
+      "Seats and licenses are limited. Every pathway links to Folsom Lake College to apply and enroll.",
     ],
   },
   {

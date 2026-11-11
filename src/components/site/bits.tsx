@@ -1,5 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import type { Course } from "@/lib/content";
+import { flc } from "@/lib/flc";
+
+const external = { target: "_blank", rel: "noopener noreferrer" } as const;
 
 export function PageHero({
   kicker,
@@ -32,14 +35,62 @@ export function CourseCard({ course }: { course: Course }) {
       </h3>
       <p className="mt-2 flex-1 text-sm text-ink">{course.summary}</p>
       <p className="mt-4 text-xs text-muted">{course.credential}</p>
-      <Link
-        to="/pathways/$courseId"
-        params={{ courseId: course.id }}
-        className="mt-4 inline-flex min-h-11 items-center text-sm font-semibold text-navy no-underline hover:text-gold-deep"
-      >
-        View pathway
-      </Link>
+      <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2">
+        <a
+          href={flc.enroll}
+          {...external}
+          className="inline-flex min-h-11 items-center text-sm font-semibold text-gold-deep no-underline hover:underline"
+        >
+          Enroll at Folsom Lake College
+        </a>
+        <Link
+          to="/pathways/$courseId"
+          params={{ courseId: course.id }}
+          className="inline-flex min-h-11 items-center text-sm font-semibold text-navy no-underline hover:text-gold-deep"
+        >
+          View pathway
+        </Link>
+      </div>
     </article>
+  );
+}
+
+export function EnrollPanel({ pathway }: { pathway: string }) {
+  return (
+    <section className="rounded-xl bg-navy p-6 text-white">
+      <h2 className="text-2xl">Enroll at Folsom Lake College</h2>
+      <p className="mt-2 text-sm text-white/75">
+        {pathway} is an AIR Pathway. Sign-up and class registration happen on Folsom Lake College’s own site, not
+        here. New students apply once. Continuing Los Rios students enroll in eServices.
+      </p>
+      <div className="mt-4 flex flex-wrap gap-3">
+        <a
+          href={flc.enroll}
+          {...external}
+          className="inline-flex min-h-11 items-center rounded-md bg-gold px-4 py-2 text-sm font-semibold text-navy-deep no-underline"
+        >
+          Enroll in classes
+        </a>
+        <a
+          href={flc.apply}
+          {...external}
+          className="inline-flex min-h-11 items-center rounded-md border border-white/40 px-4 py-2 text-sm font-semibold text-white no-underline hover:bg-white/10"
+        >
+          Apply to FLC
+        </a>
+      </div>
+      <p className="mt-4 text-sm text-white/70">
+        Already a student?{" "}
+        <a href={flc.eservices} {...external} className="font-semibold text-gold underline">
+          Sign in to eServices
+        </a>
+        . Spring 2027 enrollment begins November 23, 2026. Search the{" "}
+        <a href={flc.schedule} {...external} className="font-semibold text-gold underline">
+          class schedule
+        </a>{" "}
+        for the section once it is posted.
+      </p>
+    </section>
   );
 }
 

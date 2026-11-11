@@ -16,7 +16,7 @@ function Page() {
         <ul className="mb-8 max-w-2xl list-disc space-y-2 pl-5 text-sm text-muted">
           <li>No paid AI subscription is required. Free tools are enough for the practice tasks.</li>
           <li>Use fictional records. Do not paste student, patient, or resident data.</li>
-          <li>Registration will run through Folsom Lake College when the term is open.</li>
+          <li>Sign up and enroll at Folsom Lake College. Each pathway links to the college’s apply and eServices pages.</li>
         </ul>
         <div className="grid gap-4 md:grid-cols-2">
           {coursesByTrack("foundations").map((c) => (

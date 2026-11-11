@@ -46,11 +46,13 @@ function Page() {
           </p>
         </section>
         <section>
-          <h2 className="text-2xl text-navy">How enrollment will work</h2>
+          <h2 className="text-2xl text-navy">How enrollment works</h2>
           <ol className="mt-3 list-decimal space-y-2 pl-5 text-muted">
             <li>Choose a pathway and read the outcomes.</li>
-            <li>Register through Folsom Lake College when the term window is open.</li>
-            <li>For industry and NVIDIA courses, request the external seat after college registration is confirmed.</li>
+            <li>
+              New to Los Rios? Apply to Folsom Lake College. Continuing students sign in to eServices and enroll.
+            </li>
+            <li>For industry and NVIDIA courses, open the provider seat after the college registration is confirmed.</li>
             <li>Finish the checks. Request credit only if your course and your district both allow it.</li>
           </ol>
         </section>

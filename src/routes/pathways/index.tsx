@@ -16,7 +16,7 @@ function PathwaysHome() {
         <Track
           title="AIR Foundations"
           href="/pathways/foundations"
-          note="Built for this network. Completed on the Folsom Lake College learning system when enrollment is open."
+          note="Built for this network. Each course links to Folsom Lake College to apply and enroll."
           courses={coursesByTrack("foundations")}
         />
         <Track
