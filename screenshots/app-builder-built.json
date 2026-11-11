@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "AIR Pathways | AI training for Rancho Cordova",
+      "hasCanvas": false,
+      "bodyTextLen": 5516,
+      "bodyTextHash": "54c27935ac7592dcf0e3a6c5b8959c4c47b99d99b673ca4c55ba569c4e675a41",
+      "bodyTextPrefix": "Skip to content AIR Pathways Rancho Cordova · Los Rios About AI ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "AIR Pathways | AI training for Rancho Cordova",
+      "hasCanvas": false,
+      "bodyTextLen": 5428,
+      "bodyTextHash": "f6c3f4d97c8b88c3dcd08bd278db423bd6f4a96905af8e48578455ef1976d9db",
+      "bodyTextPrefix": "Skip to content AIR Pathways Rancho Cordova · Los Rios AI AND RO",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

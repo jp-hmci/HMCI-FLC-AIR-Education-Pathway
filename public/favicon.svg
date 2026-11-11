@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AIR">
+  <rect width="64" height="64" rx="14" fill="#0C2340"/>
+  <path fill="#C8891A" fill-rule="evenodd" d="M16 12 L27 52 H21 L19.5 44 H12.5 L11 52 H5 Z M16 31.5 L18.35 39 H13.65 Z"/>
+  <rect x="30" y="12" width="5.4" height="40" fill="#F4F1EA"/>
+  <path fill="#C8891A" fill-rule="evenodd" d="M38 12 H46.6 C53.3 12 54.6 16.3 54.6 20.4 C54.6 25.2 52 27.8 47.2 28.2 L55.6 52 H49.7 L42.9 30.4 H43.4 V52 H38 Z M43.4 16.5 H46.3 C49.5 16.5 49.9 18.4 49.9 20.4 C49.9 23 48.8 24.4 46.2 24.4 H43.4 Z"/>
+  <rect x="18.2" y="40" width="22.2" height="3.3" fill="#C8891A"/>
+</svg>
